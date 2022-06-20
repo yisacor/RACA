@@ -1,0 +1,134 @@
+* {
+  outline: none;
+}
+
+.form-heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 5px;
+}
+.contain{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.reg-form form {
+  background: orange;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 15px -80px;
+  padding: 15px;
+  width: 600px;
+  width: 115%;
+  
+}
+
+.helper-text {
+  font-size: 12px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.field-row {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 5px 5px 0;
+  text-align: right;
+  width: 100px;
+}
+
+.field {
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 240px;
+}
+.field.field-short {
+  width: 70px;
+}
+
+.message {
+  display: inline-block;
+}
+
+.form-button {
+  background: linear-gradient(180deg, #808080, #2a2a2a);
+  border: none;
+  border-radius: 0;
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-button option{
+  background-color: #2a2a2a;
+  color: blue;
+}
+
+:required + .message::before {
+  content: "* ";
+}
+
+.text-field:focus:required:valid {
+  outline: green solid 2px;
+}
+.text-field:focus:required:invalid {
+  outline: orange solid 2px;
+}
+
+.date-field {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.date-field:focus:in-range {
+  outline: green solid 2px;
+}
+.date-field:focus:out-of-range {
+  outline: orange solid 2px;
+}
+
+.website-field:focus:valid {
+  outline: green solid 2px;
+}
+.website-field:focus:invalid {
+  outline: orange solid 2px;
+}
+
+
+.image{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.image h1{
+  text-align: center;
+}
+.image .in{
+  width:100% ;
+ 
+  margin-top: 20px;
+  padding-left: 30px;
+}
+.image label{
+  font-size: 35px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 900;
+
+}
+.image .in{
+  display: flex;
+  justify-content: space-between;
+}

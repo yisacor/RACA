@@ -1,0 +1,179 @@
+a{
+	font-family: "Raleway",sans-serif;
+	text-decoration: none;
+	outline: none;
+   
+    
+}
+.reg-form {
+    width: 90%;
+    margin-top:-0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header{
+    margin-bottom: 70px;
+    font-size: 70px;
+    
+}
+#featuredcars .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.reg-form  {
+    background: #fff;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.4);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 15px 15PX 15PX 15PX;
+    width: 100%;
+    
+  }
+body {
+	background: #f6f5f7;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	margin: -20px 0 50px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background-color: #FFFFFF;
+    max-width: 1800px;
+}
+
+a{
+  font-family: "Raleway",sans-serif;
+  text-decoration: none;
+  outline: none;
+ 
+}
+
+
+#featuredcars{
+    margin-top: 60px;
+    width: 100%;
+    margin-right: 10PX;
+}
+.f{
+    width: 30%;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+
+}
+.fcar {
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    min-width: 108%;
+    padding-bottom: 5px;
+    MARGIN-LEFT: 10PX;
+}
+.img{
+    width: 100%;
+    height: 300px;
+}
+.img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.name{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    color: blue;
+    
+}
+.price{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    margin-top: 10px;
+    color: black;
+}
+.year{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 35px;
+    
+}
+.viewbtn a{
+    color: white;
+}
+
+
+
+
+
+
+.a a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/* CSS */
+.a a{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border: 2px solid #FFFFFF;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  touch-action: manipulation;
+
+ 
+}
+
+.a a:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
