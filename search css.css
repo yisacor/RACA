@@ -1,0 +1,37 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: grid;
+	align-items: center;
+	place-items: center;
+	height: 100vh;
+}
+
+main {
+	width: 60%;
+	border: 2px solid #1560bd;
+	padding: 2em;
+	display: flex;
+	justify-content: center;
+}
+
+input,
+button {
+	padding: 0.2em;
+}
+
+
+<?php foreach ($featured_cars as $featured_car){if($featured_car['soldby']=="$username") { ?>
+                                    
+	<div class="fcar">
+		<div class="img"><img src="./img/<?php echo $featured_car['image']?>"></div>
+		<div class="name"><h1><?php echo $featured_car['year']; ?> <?php echo $featured_car['brand']; ?> <?php echo $featured_car['model']; ?></h1></div>
+		<div class="price"><h1><?php echo $featured_car['price']; ?> Birr</h1></div>
+	   <div class="a"><?php  echo "<a href='kk.php?car=".$featured_car['id']."'>View Car</a>"?></div>
+	   
+	</div>
+	<?php } } ?>

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+    max-width: 1800px;
+    overflow-x: hidden;
+}
+
+
+.header h1{
+    text-align: center;
+}
+.item a{
+    text-align: center;
+    background-color: aqua;
+}
+.item a img:hover{
+    transform:scale(1.02);
+}
+.item img{
+    width: 460px;
+    height: 350px;
+}
+.item h1{
+    margin-top: 4px;
+    background-color: orange;
+    color: black;
+    font: 600;
+    font-size: 30px;
+}
+.item h1:hover{
+    background-color: blue;
+
+}

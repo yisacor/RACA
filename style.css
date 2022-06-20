@@ -1,0 +1,493 @@
+*{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      list-style: none;
+      text-decoration: none;
+  }
+  body{
+      background-color: #FFFFFF;
+      max-width: 1800px;
+  }
+
+
+#TOP {
+      height: 80vh;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+
+
+}
+.search{
+    width: 100%;
+      position: absolute;
+      height: 165%;
+      z-index: -1;
+      background-position:center;
+      background-repeat: no-repeat;
+    
+}
+
+  #TOP img{
+      width: 100%;
+      position: absolute;
+      height: 165%;
+      z-index: -1;
+      background-position:center;
+      background-repeat: no-repeat;
+      }
+#top{
+    position: relative;
+}
+
+#top h1{
+    color: blue;
+    display: block;
+    font-size : 4rem;
+    width: fit-content;
+}
+#top h3{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    color: lightblue;
+    position: relative;
+    
+}
+#top h3 span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color:pink;
+       
+}
+#TOP a{
+    font-size: 3.5rem;
+    color: black;
+    background-color:gainsboro;
+    border:white solid 2px;
+    border-radius: 12px;
+    border-style: groove;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    transition: 1.5 ease ;
+    transition-property: background-color , color;
+}
+#TOP a:hover{
+    color: gainsboro;
+    background-color: black;
+}
+#bottom h1{
+    color: rgb(20, 147, 220);
+    display: block;
+    font-size : 2rem;
+    position: calc();
+    width: fit-content;
+    position: bottom;
+}
+#bottom .about-img{
+    width: 2px;
+    height: 3px;
+}
+.tlinkdivision{
+    z-index: 2;
+    margin-top: 84vh;
+    margin-left: 3vh;
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 11vh;
+    background-color: black;
+    width: 60%;
+}
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar li{
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+    font-size: 20px;
+}
+.navbar a{
+    width: 100%;
+    height: 100%;
+    color: gainsboro;
+}
+.navbar a:hover{
+    color: blue;
+}
+.text{
+    padding-left: 50px;
+    width: 20%;
+}
+nav{
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;  
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+.log{
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 15%;
+    font-size: 20px;
+    color: blue;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tarea{
+    background-color: black;
+    color: gainsboro;
+    margin-top: 150px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.t{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarea a{
+    font-size: 3rem;
+    width: 8rem;
+    color: black;
+    background-color:gainsboro;
+    border:white solid 2px;
+    border-radius: 12px;
+    border-style: groove;
+    position: center;
+    align-items: center;
+    justify-content: center;
+    transition: 1.5 ease ;
+    transition-property: background-color , color;
+}
+.tarea a:hover{
+    color: gainsboro;
+    background-color: black;
+}
+.location{
+    padding: 30px;
+}
+#brands{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.items ul{
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    margin-top: 15px;
+}
+.header{
+    margin-bottom: 70px;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+#featuredcars .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* featured cars sector*/
+
+#featuredcars{
+    margin-top: 60px;
+}
+.f{
+    width: 100%;
+    margin-top: 80px;
+    justify-content: space-evenly;
+    background-color: #FFFFFF;
+}
+.fcar{
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    min-width: 100%;
+    padding-bottom: 5px;
+    
+    
+}
+.img{
+    width: 100%;
+    height: 300px;
+}
+.img img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+.name{
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    color: blue;
+    
+}
+.price{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    margin-top: 10px;
+    color: black;
+}
+.year{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 35px;
+    
+}
+.viewbtn a{
+    color: white;
+}
+
+
+
+.c a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/* CSS */
+.c a{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(197, 93, 20, 0.84), rgba(206, 71, 56, 0.84) 50%);
+  border-radius: 42px;
+  border: 2px solid #FFFFFF;
+  box-shadow: rgba(161, 179, 22, 0.24) 0 2px 2px,rgba(216, 68, 28, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(218, 7, 7, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  touch-action: manipulation;
+
+ 
+}
+
+.c a:hover {
+  background-image: linear-gradient(#a96717, #e6b029 50%);
+}
+
+.b a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/* CSS */
+.b a{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(197, 93, 20, 0.84), rgba(161, 206, 56, 0.84) 50%);
+  border-radius: 42px;
+  border: 2px solid #FFFFFF;
+  box-shadow: rgba(161, 179, 22, 0.24) 0 2px 2px,rgba(171, 125, 40, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  touch-action: manipulation;
+
+ 
+}
+
+.b a:hover {
+  background-image: linear-gradient(#a96717, #e6b029 50%);
+}
+.a a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+/* CSS */
+.a a{
+  align-items: center;
+  background-color: initial;
+  background-image: linear-gradient(rgba(179, 132, 201, .84), rgba(57, 31, 91, .84) 50%);
+  border-radius: 42px;
+  border: 2px solid #FFFFFF;
+  box-shadow: rgba(57, 31, 91, 0.24) 0 2px 2px,rgba(179, 132, 201, 0.4) 0 8px 12px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 700;
+  justify-content: center;
+  letter-spacing: .04em;
+  line-height: 16px;
+  margin: 0;
+  padding: 18px 18px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(255, 255, 255, 0.4) 0 0 4px,rgba(255, 255, 255, 0.2) 0 0 12px,rgba(57, 31, 91, 0.6) 1px 1px 4px,rgba(57, 31, 91, 0.32) 4px 4px 16px;
+  user-select: none;
+  touch-action: manipulation;
+
+ 
+}
+
+.a a:hover {
+  background-image: linear-gradient(#B384C9, #391F5B 50%);
+}
+
+.header{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+#searchz{
+    margin-top: -380px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    margin-right: -60px;
+}
+#searchz form{
+    width: 60%;
+    background-color:white;
+    display: flex;
+}
+#searchz .se {
+    background-color: antiquewhite;
+    opacity: 0.8;
+    font-size: 25px;
+   width: 70%;
+   height: 100%;
+    
+}
+#searchz .sub{
+
+    width: 30%;
+   height: 100%;
+   background-color: rgb(214, 178, 178);
+   font-size: 25px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#input .tet{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
